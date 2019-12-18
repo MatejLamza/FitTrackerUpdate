@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1009436076104",
+    "firebase_url": "https://fit-tracker-f78e3.firebaseio.com",
+    "project_id": "fit-tracker-f78e3",
+    "storage_bucket": "fit-tracker-f78e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009436076104:android:13fe51dce2240f59ea907d",
+        "android_client_info": {
+          "package_name": "com.example.fitnesstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009436076104-e4ugg9k297q7is7e210lll3pi1gntvaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitnesstracker",
+            "certificate_hash": "6adce2f4ed6651ba7153c77faabe9a4bed84478e"
+          }
+        },
+        {
+          "client_id": "1009436076104-d1ujvcr2jq9knutjuit2v737rfofa94h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkQlPRGIIji0ONhTWQw2AaU-2jAhOvt0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009436076104-d1ujvcr2jq9knutjuit2v737rfofa94h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

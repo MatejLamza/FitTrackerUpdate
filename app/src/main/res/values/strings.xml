@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FitnessTracker</string>
+    <string name="facebook_app_id">2511425249106259</string>
+    <string name="fb_login_protocol_scheme">fb2511425249106259</string>
+    <string name="ClosedDrawer">CloseDrawer</string>
+    <string name="OpenDrawer">OpenDrawer</string>
+
+    <array name="menuOptions">
+        <item>Home</item>
+        <item>Clients</item>
+        <item>Schedule</item>
+        <item>Workout</item>
+        <item>Workout Plans</item>
+        <item>Settings</item>
+    </array>
+</resources>
