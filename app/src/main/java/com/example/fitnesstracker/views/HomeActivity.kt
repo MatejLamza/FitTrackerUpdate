@@ -13,6 +13,7 @@ import com.example.fitnesstracker.viewmodels.HomeActivityViewModel
 import com.example.fitnesstracker.views.Fragments.ClientsFragment
 import com.example.fitnesstracker.views.adapters.MenuAdapter
 import com.example.fitnesstracker.views.Fragments.HomeFragment
+import com.example.fitnesstracker.views.Fragments.ScheduleFragment
 import dagger.android.AndroidInjection
 import kotlinx.android.synthetic.main.activity_home.*
 import kotlinx.android.synthetic.main.footer.*
@@ -77,7 +78,10 @@ class HomeActivity : AppCompatActivity(), DuoMenuView.OnMenuClickListener {
                 Toast.makeText(this, options[position], Toast.LENGTH_LONG).show()
                 goToFragment(ClientsFragment(),true)
             }
-            2 -> Toast.makeText(this, options[position], Toast.LENGTH_LONG).show()
+            2 ->{
+                Toast.makeText(this, options[position], Toast.LENGTH_LONG).show()
+                goToFragment(ScheduleFragment(),false)
+            }
             3 -> Toast.makeText(this, options[position], Toast.LENGTH_LONG).show()
             4 -> Toast.makeText(this, options[position], Toast.LENGTH_LONG).show()
             5 -> Toast.makeText(this, options[position], Toast.LENGTH_LONG).show()

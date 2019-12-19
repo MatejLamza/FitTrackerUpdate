@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:background="@drawable/shape_header"
+            android:id="@+id/schedule_header"
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+
+        <TextView
+                android:text="Schedule"
+                android:layout_centerInParent="true"
+                android:paddingBottom="100dp"
+                android:textColor="@color/lightBrown"
+                android:textSize="35sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/schedule_today"
+            android:layout_below="@id/schedule_header"
+            android:text="TODAY"
+            android:textSize="22sp"
+            android:textColor="@color/mudWhite"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@id/schedule_today"
+            android:id="@+id/rec_schedule_events"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_margin="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+
+
+
+</RelativeLayout>

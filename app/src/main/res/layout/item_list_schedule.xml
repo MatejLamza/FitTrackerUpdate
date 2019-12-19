@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/colorPrimary"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="380dp"
+        android:layout_height="120dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/schedule_item_time"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="15dp"
+                android:text="11:00"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:textColor="@color/mudWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                android:layout_alignParentEnd="true"
+                app:cardCornerRadius="30dp"
+                android:layout_width="260dp"
+                android:layout_height="80dp">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <TextView
+                        android:textColor="@color/colorPrimary"
+                        android:id="@+id/schedule_item_client_name"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gal Gadot" />
+
+                <TextView
+                        android:id="@+id/schedule_item_description"
+                        android:layout_below="@id/schedule_item_client_name"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Private Session" />
+
+                <ImageView
+                        android:layout_marginStart="30dp"
+                        android:layout_below="@id/schedule_item_description"
+                        android:src="@drawable/icon_location"
+                        android:layout_width="15dp"
+                        android:layout_height="20dp"/>
+
+                <TextView
+                        android:id="@+id/schedule_item_location"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginLeft="47dp"
+                        android:layout_below="@id/schedule_item_description"
+                        android:text="Play Fitness, Gradiščanska 10, Zagreb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -30,8 +30,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:translationZ="1200dp" />
+            android:layout_height="50dp"/>
 
 
 </RelativeLayout>
